@@ -174,7 +174,6 @@
             }
             var thisSelector = this;
             this.selectorElement.find('li').click(function (e) {
-                alert(jQuery(this).attr('data'));
                 thisSelector.hide();
                 thisSelector.combobox.setValue(jQuery(this).attr('data'));
                 thisSelector.combobox.focus();
